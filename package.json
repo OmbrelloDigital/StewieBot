@@ -17,7 +17,8 @@
   "dependencies": {
     "hubot": "2.0.5",
     "hubot-scripts": "2.0.2",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "netpincer-napimenu": "https://github.com/gazs/netpincer-napimenu/tarball/master"
   }
 }
 

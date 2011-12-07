@@ -6,11 +6,11 @@
 netpincer_menu = require('netpincer-napimenu')
 
 module.exports = (robot) ->
-  lat = process.env.HUBOT_NETPINCER_LAT or 47.5034905 
-  lng = process.env.HUBOT_NETPINCER_LNG or 19.0621781
+  lat = process.env.HUBOT_NETPINCER_LAT or 47.490667
+  lng = process.env.HUBOT_NETPINCER_LNG or 19.023256
   radiusz = process.env.HUBOT_NETPINCER_RADIUS or 2
   robot.respond /menü/i, (msg) ->
-    netpincer_menu (results) -> 
+    netpincer_menu (results) ->
       if results
         results.forEach (result) ->
           if result

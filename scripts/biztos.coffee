@@ -5,7 +5,7 @@
 #
 module.exports = (robot) ->
   robot.respond /(biztos|tuti) (.+)\?/i, (msg) ->
-    msg.send rand.toString()
+    rand = Math.random()
     if rand > 0.5
       msg.send 'IGEN!'
     else
